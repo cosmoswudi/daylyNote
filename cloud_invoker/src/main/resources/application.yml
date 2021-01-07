@@ -1,0 +1,11 @@
+server:
+  port: 9000
+eureka:
+  instance:
+    hostname: cloud-invoker
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+spring:
+  application:
+    name: cloud-invoker
