@@ -34,6 +34,7 @@ public class InvokerController {
                 "http://cloud-provider", String.class
         );
         return json;*/
+        System.out.println(111);
         return "hello";
 
     }
